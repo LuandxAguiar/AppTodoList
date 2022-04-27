@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CadTarefaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="718dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+           android:id="@+id/titulo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="48dp"
+
+         />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descricao"
+        android:layout_marginTop="125dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/descTarefa"
+        android:gravity="top"
+        android:inputType="textCapSentences|textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="154dp"
+        android:lines="4" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prevista"
+        android:layout_marginTop="270dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+
+        />
+    <Button
+        android:id="@+id/btSeleData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:text="@string/addData"
+        />
+
+    <Button
+        android:id="@+id/btsalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="@string/salvar"
+        />
+</FrameLayout>
